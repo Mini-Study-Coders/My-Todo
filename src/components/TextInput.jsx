@@ -5,6 +5,7 @@ export default function TextInput({ ...buttonProps }) {
       <input
         type="text"
         {...buttonProps}
+        required
         className="border-2 rounded-lg py-2 px-2 w-64 font-primary"
       />
     </div>
