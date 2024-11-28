@@ -1,10 +1,3 @@
-
-
-function App() {
-  return (
-    <div className="flex flex-col items-center py-4">
-    </div>
-  );
-}
+function App() {}
 
 export default App;
