@@ -17,14 +17,14 @@ export default function TextInput({ ...buttonProps }) {
 In App.jsx send props as object:
 
 ex.
-const buttonProps = {
+const textProps = {
     id: "",
     name: "",
     placeholder: ""
 }
 
-Then in rendered component, spread buttonProps:
+Then in rendered component, spread textProps:
 
-<TextInput {...buttonProps} />
+<TextInput {...textProps} />
 
 */

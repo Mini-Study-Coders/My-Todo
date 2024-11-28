@@ -1,9 +1,9 @@
 export default function FormHeader() {
   return (
     <>
-      <div className="flex items-center justify-center font-primary my-6">
+      <div className="flex items-center font-primary my-6 ml-14">
         <span
-          className="material-symbols-outlined border-2 p-1 text-4xl rounded-lg mr-4"
+          className="material-symbols-outlined border-2 p-1 text-4xl rounded-lg mr-2"
           style={{
             fontVariationSettings: "'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 48",
           }}
