@@ -13,3 +13,25 @@ export default function DropdownInput({ options, ...rest }) {
     </select>
   );
 }
+
+/*
+
+In App.jsx to send props, create object:
+
+ex.
+const dropdownProps = {
+    id: "",
+    name: "",
+    options: [
+        { value: "", label: ""},
+        { value: "", label: ""},
+        { value: "", label: ""}
+    ],
+    defaultValue: ""
+};
+
+Then in rendered component, spread dropdownProps:
+
+<DropdownInput {...dropdownProps} />
+
+*/
