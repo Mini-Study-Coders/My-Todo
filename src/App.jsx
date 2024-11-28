@@ -44,6 +44,12 @@ function App() {
     placeholder: "E.g build an app with hooks",
   };
 
+  // DateTime Selector
+  const dateTimeProps = {
+    id: "date",
+    name: "date",
+  };
+
   return (
     <form
       action="submit"
@@ -90,8 +96,10 @@ function App() {
         <label htmlFor="date" className="mr-auto ml-14 mb-2 font-primary">
           Date & Time
         </label>
-        <DateTimeInput />
+        <DateTimeInput {...dateTimeProps} />
       </div>
+
+      {/* Buttons Row 4 */}
       <div className="flex flex-col items-center justify-center pb-2">
         <BlueButton type="submit" text="Submit Task" />
       </div>
